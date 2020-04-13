@@ -74,16 +74,16 @@ Note : As soon as we load the dataset into elasticsearch cluster, it will store 
 ### For backend
 ```
 cd backend
-docker build -t e-library-backend-api-ks:latest .
-docker tag e-library-backend-api-ks:latest karansingh/e-library-backend-api-ks:latest
-docker push karansingh/e-library-backend-api-ks:latest
+docker build -t e-library-backend-api:latest .
+docker tag e-library-backend-api:latest karansingh/e-library-backend-api:latest
+docker push karansingh/e-library-backend-api:latest
 ```
 ### For Frontend
 ```
 cd frontend
 docker build -t e-library-frontend-ks:latest .
-docker tag e-library-frontend-ks:latest karansingh/e-library-frontend-ks:latest
-docker push karansingh/e-library-frontend-ks:latest
+docker tag e-library-frontend:latest karansingh/e-library-frontend:latest
+docker push karansingh/e-library-frontend:latest
 ```
 ---
 This application is 100% open-source, feel free to utilize the code however you would like.
