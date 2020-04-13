@@ -17,8 +17,6 @@
 
 In this tutorial, we'll walk through setting up our own full-text search application.  Our example app will provide a UI and API to search the complete texts of 100 literary classic novels (https://www.gutenberg.org) such as *Peter Pan*, *Frankenstein*, and *Treasure Island*.
 
-You can preview a completed version of this example app here - https://search.patricktriest.com
-
 ![preview webapp](https://cdn.patricktriest.com/blog/images/posts/elastic-library/sample_4_0.png)
 
 ## Deployment Architecture
@@ -32,7 +30,7 @@ Requirement : You should have a running OpenShift (Kubernetes) cluster with Open
 
 - Clone this repository
 ```
-git clone https://github.com/ksingh7/
+git clone https://github.com/ksingh7/e-library-app-on-elasticsearch-ocs-ocp.git
 ```
 - Change director to ``deploy-on-ocp``
 - Create a namespace and a Persistent Volume Claim for Elasticsearch
