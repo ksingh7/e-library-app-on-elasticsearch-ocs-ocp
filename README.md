@@ -1,6 +1,6 @@
 # A Full-Text Search Example App
 
-## Tech Stack used 
+## Tech Stack
 - Elasticsearch - for Text Indexing and Searching 
 - OpenShift(Kuberentes) - for Deployment
 - OpenShift Container Storage - for Data Persistencey
@@ -15,11 +15,16 @@
 
 *How does Google search the entire internet for webpages relevant to your vague, typo-filled search query?*
 
-In this tutorial, we'll walk through setting up our own full-text search application.  Our example app will provide a UI and API to search the complete texts of 100 literary classics such as *Peter Pan*, *Frankenstein*, and *Treasure Island*.
+In this tutorial, we'll walk through setting up our own full-text search application.  Our example app will provide a UI and API to search the complete texts of 100 literary classic novels (https://www.gutenberg.org) such as *Peter Pan*, *Frankenstein*, and *Treasure Island*.
 
-You can preview a completed version of the tutorial app here - https://search.patricktriest.com
+You can preview a completed version of this example app here - https://search.patricktriest.com
 
 ![preview webapp](https://cdn.patricktriest.com/blog/images/posts/elastic-library/sample_4_0.png)
+
+## Deployment Architecture
+
+![Architecture](image-1.png)
+
 
 ## Deployment Instructions 
 
