@@ -6,6 +6,7 @@ echo "env = {BACKEND_URL: 'http://$(oc get route -n e-library -o=jsonpath="{.ite
 oc create configmap -n e-library env.js --from-file=env.js
 oc create -f 4_deploy_frontend_app.yaml
 echo "Ingesting dataset (100 classic novels) on to Elasticsearch ..... "
-kubectl exec -it e-library-backend-api -- curl -X POST http://localhost:3000/load_data
+sleep 10
+kubectl exec -it e-library-backend-api  -n e-library -- curl -X POST http://localhost:3000/load_data
 oc get route frontend -n e-library
 

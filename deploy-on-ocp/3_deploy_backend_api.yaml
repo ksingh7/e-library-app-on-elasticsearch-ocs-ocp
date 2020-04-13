@@ -42,7 +42,7 @@ metadata:
   namespace: "e-library"  
 spec:
   containers:
-  - image: karansingh/e-library-backend-api:latest
+  - image: karansingh/e-library-backend-api-ks:latest
     name: e-library-backend-api
     env:
       - name: "NODE_ENV"

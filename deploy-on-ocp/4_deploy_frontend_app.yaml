@@ -89,7 +89,7 @@ spec:
         configMap:
           name: env.js       
       containers:
-      - image: karansingh/e-library-frontend:latest
+      - image: karansingh/e-library-frontend-ks:latest
         name: e-library-frontend      
         ports:
         - containerPort: 80
